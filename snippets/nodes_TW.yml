@@ -2,8 +2,8 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
-  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
-  port: 40020
-  server: soontw.soon.guru
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 39201
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss

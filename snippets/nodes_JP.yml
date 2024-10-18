@@ -1,35 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|日本|@ripaojiedian
-  network: ws
-  port: '443'
-  server: jpcft01.xqc.best
-  servername: d2vx9phh42gj2v.cloudfront.net
-  skip-cert-verify: false
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 86bf5667-081c-46a6-8030-6b50787723d6
-  ws-opts:
-    headers:
-      Host: d2vx9phh42gj2v.cloudfront.net
-    path: /stream
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
-  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
-  port: 40003
-  server: soonjp.soon.guru
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 40015
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
-  password: JpTYrOJnIhNMXqli
-  port: 23801
-  server: 221.181.185.71
+  password: 9bfad321-59c2-42dc-be43-6985c6f84bba
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -37,16 +28,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.82.24
+  server: 13.231.124.247
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '51127'
-  server: 45.159.50.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be
