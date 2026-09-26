@@ -10,9 +10,9 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_1|4.8MB/s
+  name: 🇯🇵JP_1|3.8MB/s
   password: amazonskr05
   port: 443
-  server: 3.112.209.209
+  server: 13.113.166.191
   type: ss
   udp: true
